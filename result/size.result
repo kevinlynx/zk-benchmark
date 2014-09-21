@@ -1,0 +1,112 @@
+size test 10000 10240
+Connecting to 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181
+Connected in 16 ms, handle is 0
+size test 10000 20480
+Connecting to 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181
+Connected in 8 ms, handle is 0
+size test 10000 30720
+Connecting to 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181
+Connected in 7 ms, handle is 0
+size test 10000 40960
+Connecting to 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181
+Connected in 7 ms, handle is 0
+size test 10000 51200
+Connecting to 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181
+Connected in 8 ms, handle is 0
+size test 10000 61440
+Connecting to 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181
+Connected in 8 ms, handle is 0
+size test 10000 71680
+Connecting to 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181
+Connected in 8 ms, handle is 0
+size test 10000 10240
+Connecting to 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181
+Connected in 7 ms, handle is 0
+Testing latencies on server 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181 using asynchronous calls
+created   10000 permanent znodes  in   3280 ms (0.328070 ms/op 3048.128008/sec)
+set       10000           znodes  in   7101 ms (0.710173 ms/op 1408.108006/sec)
+get       10000           znodes  in   1495 ms (0.149588 ms/op 6685.041495/sec)
+deleted   10000 permanent znodes  in   1085 ms (0.108531 ms/op 9213.949356/sec)
+created   10000 ephemeral znodes  in   3426 ms (0.342690 ms/op 2918.088297/sec)
+watched   10000           znodes  in   1255 ms (0.125522 ms/op 7966.719230/sec)
+deleted   10000 ephemeral znodes  in   1321 ms (0.132195 ms/op 7564.565124/sec)
+notif     10000           watches in      0 ms (included in prior)
+Latency test complete
+size test 10000 20480
+Connecting to 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181
+Connected in 8 ms, handle is 0
+Testing latencies on server 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181 using asynchronous calls
+created   10000 permanent znodes  in   7160 ms (0.716058 ms/op 1396.534143/sec)
+set       10000           znodes  in  15262 ms (1.526235 ms/op 655.207183/sec)
+get       10000           znodes  in   1804 ms (0.180497 ms/op 5540.252352/sec)
+deleted   10000 permanent znodes  in   1197 ms (0.119762 ms/op 8349.866290/sec)
+created   10000 ephemeral znodes  in  25218 ms (2.521883 ms/op 396.529163/sec)
+watched   10000           znodes  in   1423 ms (0.142398 ms/op 7022.570553/sec)
+deleted   10000 ephemeral znodes  in   1166 ms (0.116638 ms/op 8573.535736/sec)
+notif     10000           watches in      0 ms (included in prior)
+Latency test complete
+size test 10000 30720
+Connecting to 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181
+Connected in 7 ms, handle is 0
+Testing latencies on server 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181 using asynchronous calls
+created   10000 permanent znodes  in  11199 ms (1.119933 ms/op 892.910304/sec)
+set       10000           znodes  in  20546 ms (2.054700 ms/op 486.689129/sec)
+get       10000           znodes  in   2705 ms (0.270569 ms/op 3695.913404/sec)
+deleted   10000 permanent znodes  in   1114 ms (0.111434 ms/op 8973.898204/sec)
+created   10000 ephemeral znodes  in   9542 ms (0.954296 ms/op 1047.893114/sec)
+watched   10000           znodes  in   1351 ms (0.135181 ms/op 7397.499847/sec)
+deleted   10000 ephemeral znodes  in  24862 ms (2.486227 ms/op 402.215855/sec)
+notif     10000           watches in      0 ms (included in prior)
+Latency test complete
+size test 10000 40960
+Connecting to 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181
+Connected in 8 ms, handle is 0
+Testing latencies on server 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181 using asynchronous calls
+created   10000 permanent znodes  in  14074 ms (1.407475 ms/op 710.492353/sec)
+set       10000           znodes  in  22217 ms (2.221782 ms/op 450.089145/sec)
+get       10000           znodes  in   3543 ms (0.354391 ms/op 2821.746053/sec)
+deleted   10000 permanent znodes  in   1173 ms (0.117364 ms/op 8520.484653/sec)
+created   10000 ephemeral znodes  in  11706 ms (1.170659 ms/op 854.219791/sec)
+watched   10000           znodes  in   1387 ms (0.138796 ms/op 7204.818805/sec)
+deleted   10000 ephemeral znodes  in    998 ms (0.099876 ms/op 10012.434667/sec)
+notif     10000           watches in      0 ms (included in prior)
+Latency test complete
+size test 10000 51200
+Connecting to 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181
+Connected in 8 ms, handle is 0
+Testing latencies on server 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181 using asynchronous calls
+created   10000 permanent znodes  in  15087 ms (1.508706 ms/op 662.819788/sec)
+set       10000           znodes  in  26625 ms (2.662511 ms/op 375.585344/sec)
+get       10000           znodes  in   5364 ms (0.536402 ms/op 1864.273067/sec)
+deleted   10000 permanent znodes  in  26997 ms (2.699761 ms/op 370.403144/sec)
+created   10000 ephemeral znodes  in  27491 ms (2.749130 ms/op 363.751389/sec)
+watched   10000           znodes  in   1332 ms (0.133298 ms/op 7501.993858/sec)
+deleted   10000 ephemeral znodes  in   1300 ms (0.130065 ms/op 7688.469799/sec)
+notif     10000           watches in      0 ms (included in prior)
+Latency test complete
+size test 10000 61440
+Connecting to 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181
+Connected in 8 ms, handle is 0
+Testing latencies on server 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181 using asynchronous calls
+created   10000 permanent znodes  in  20873 ms (2.087325 ms/op 479.082057/sec)
+set       10000           znodes  in  39162 ms (3.916209 ms/op 255.349019/sec)
+get       10000           znodes  in   5331 ms (0.533167 ms/op 1875.585351/sec)
+deleted   10000 permanent znodes  in    960 ms (0.096092 ms/op 10406.746775/sec)
+created   10000 ephemeral znodes  in  21715 ms (2.171571 ms/op 460.496047/sec)
+watched   10000           znodes  in   1415 ms (0.141577 ms/op 7063.318889/sec)
+deleted   10000 ephemeral znodes  in    972 ms (0.097201 ms/op 10288.011558/sec)
+notif     10000           watches in      0 ms (included in prior)
+Latency test complete
+size test 10000 71680
+Connecting to 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181
+Connected in 8 ms, handle is 0
+Testing latencies on server 10.101.83.226:4181,10.101.83.239:4181,10.101.83.237:4181 using asynchronous calls
+created   10000 permanent znodes  in  43033 ms (4.303389 ms/op 232.375012/sec)
+set       10000           znodes  in  39033 ms (3.903373 ms/op 256.188698/sec)
+get       10000           znodes  in   6919 ms (0.691925 ms/op 1445.242743/sec)
+deleted   10000 permanent znodes  in   1307 ms (0.130777 ms/op 7646.604445/sec)
+created   10000 ephemeral znodes  in  20346 ms (2.034654 ms/op 491.484056/sec)
+watched   10000           znodes  in   1447 ms (0.144789 ms/op 6906.588167/sec)
+deleted   10000 ephemeral znodes  in  22528 ms (2.252845 ms/op 443.883179/sec)
+notif     10000           watches in      0 ms (included in prior)
+Latency test complete
