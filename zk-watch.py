@@ -102,6 +102,9 @@ def add_wathches(s):
             cb = zkclient.GetCallback()
             cb.cv.acquire()
             s.aget(child_path(j), cb, watch_sync)
+            def watch2(h, t, s, p):
+                pass
+            s.get(child_path(j), watch2)
             callbacks.append(cb)
 
         for cb in callbacks:
@@ -160,9 +163,9 @@ if __name__ == '__main__':
         add_wathches(s)
     set_nodes(session_set, data)
     delete_nodes(session_set) 
+    session_set.delete(options.root_znode)
 
     time.sleep(10)
-    session_set.delete(options.root_znode)
     for s in session_gets:
         s.close()
     session_set.close()
